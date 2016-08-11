@@ -1,0 +1,27 @@
+{
+  "name": "connector-mqtt",
+  "version": "1.0.0",
+  "description": "Expose mbed Device Connector resources over MQTT",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janjongboom/connector-mqtt.git"
+  },
+  "keywords": [
+    "mqtt",
+    "mbed"
+  ],
+  "author": "Jan Jongboom <janjongboom@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/janjongboom/connector-mqtt/issues"
+  },
+  "homepage": "https://github.com/janjongboom/connector-mqtt#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "es6-promisify": "^4.1.0",
+    "konekuta": "^0.3.2",
+    "mosca": "^2.0.2",
+    "redis": "^2.6.2"
+  }
+}
